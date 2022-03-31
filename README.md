@@ -7,7 +7,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://interactive-rating-challenge-asat.netlify.app/)
+- Live Site URL: [Netlify](https://interactive-rating-challenge-asat.netlify.app/)
 
 ## My process
 
@@ -19,8 +19,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Author
 
-- Website -
-- Frontend Mentor -
-- Twitter -
+- GitHub - https://github.com/AndrewSatterfield/
+- Frontend Mentor - https://www.frontendmentor.io/profile/AndrewSatterfield
+- Twitter - https://twitter.com/AndSatterfield
 
 ## Acknowledgments
