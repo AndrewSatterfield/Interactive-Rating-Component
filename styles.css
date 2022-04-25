@@ -1,0 +1,9 @@
+:root {
+  --orange: hsl(25deg, 97%, 53%);
+}
+
+body {
+  background-color: --orange;
+}
+
+/*# sourceMappingURL=styles.css.map */
