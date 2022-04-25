@@ -12,8 +12,21 @@ $very-dark-blue: hsl(216, 12%, 8%);
 
 :root {
   --orange: #{$orange};
+  --white: #{$white};
+  --light-grey: #{$light-grey};
+  --medium-grey: #{$medium-grey};
+  --dark-blue: #{$dark-blue};
+  --very-dark-blue: #{$very-dark-blue};
 }
 
 body {
-  background: --orange;
+  background: var(--very-dark-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
 }
