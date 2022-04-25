@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Overpass;
+  src: url("https://fonts.google.com/specimen/Overpass");
+}
 :root {
   --orange: hsl(25deg, 97%, 53%);
 }

@@ -5,6 +5,11 @@ $medium-grey: hsl(216, 12%, 54%);
 $dark-blue: hsl(213, 19%, 18%);
 $very-dark-blue: hsl(216, 12%, 8%);
 
+@font-face {
+  font-family: Overpass;
+  src: url("https://fonts.google.com/specimen/Overpass");
+}
+
 :root {
   --orange: #{$orange};
 }
