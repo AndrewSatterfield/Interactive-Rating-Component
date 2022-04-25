@@ -16,4 +16,4 @@
 .prettierignore
 *.map
 *.scss
-\n
+'\n'
