@@ -1,15 +1,9 @@
-nav ul {
-  margin: 0;
-  padding: 6px;
-  list-style: none;
+:root {
+  --orange: hsl(25deg, 97%, 53%);
 }
-nav li {
-  display: inline-block;
-}
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
+
+body {
+  background-color: --orange;
 }
 
 /*# sourceMappingURL=styles.css.map */
