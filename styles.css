@@ -84,7 +84,7 @@ body {
   margin: 30px auto;
   border: none;
   color: var(--light-grey);
-  cursor: poiner;
+  cursor: pointer;
 }
 .rating-button:hover, .rating-button:focus {
   background-color: var(--light-grey);
