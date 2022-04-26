@@ -5,11 +5,13 @@ $medium-grey: hsl(216, 12%, 54%);
 $dark-blue: hsl(213, 19%, 18%);
 $very-dark-blue: hsl(216, 12%, 8%);
 
-@font-face {
-  font-family: Overpass;
-  src: url("https://fonts.google.com/specimen/Overpass");
-}
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 
+/*@font-face {
+  font-family: "Overpass";
+  src: url("https://overpass-30e2.kxcdn.com/overpass.css");
+}
+*/
 :root {
   --orange: #{$orange};
   --white: #{$white};
@@ -19,14 +21,154 @@ $very-dark-blue: hsl(216, 12%, 8%);
   --very-dark-blue: #{$very-dark-blue};
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass";
+  color: white;
+}
+
 body {
   background: var(--very-dark-blue);
 }
+.hidden {
+  display: none;
+}
+.all-container {
+  position: relative;
+  max-width: 375px;
+  height: 375px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 25vh;
+  background: linear-gradient(var(--dark-blue), hsl(215, 21%, 11%));
+  border-radius: 30px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background: var(--dark-blue);
+  border: none;
+}
+
+.rating-text {
+  text-align: start;
+  margin: 10px 0;
+  p {
+    font-size: 15px;
+    color: var(--light-grey);
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-button {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  background: var(--dark-blue);
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 30px auto;
+  border: none;
+  color: var(--light-grey);
+  &:hover,
+  &:focus {
+    background-color: var(--light-grey);
+    color: white;
+  }
+}
+
+#rating-5:hover,
+#rating-5:focus {
+  background-color: var(--orange);
+  color: white;
+}
+
+.submit-button {
+  text-transform: uppercase;
+  background-color: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  color: var(--white);
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  &:hover {
+    background-color: white;
+    color: var(--orange);
+  }
+}
 
 .attribution {
+  position: fixed;
+  bottom: 1%;
   font-size: 11px;
   text-align: center;
+  margin: 0 auto;
+  padding: 0 15px;
   a {
     color: hsl(228, 45%, 44%);
+  }
+}
+
+.thank-image,
+.selection-text,
+.thank-text {
+  display: flex;
+  justify-content: center;
+}
+
+.selection-text {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 30px auto;
+  width: 50%;
+  height: 30px;
+  border-radius: 50px;
+  color: var(--orange);
+  border: none;
+  align-items: center;
+  text-align: center;
+  background-color: var(--dark-blue);
+}
+
+.thank-text {
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  p {
+    width: 315px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--medium-grey);
   }
 }
