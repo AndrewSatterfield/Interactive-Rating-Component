@@ -90,6 +90,8 @@ body {
   margin: 30px auto;
   border: none;
   color: var(--light-grey);
+  cursor: poiner;
+
   &:hover,
   &:focus {
     background-color: var(--light-grey);
@@ -117,6 +119,7 @@ body {
   letter-spacing: 0.12em;
   font-size: 0.8rem;
   font-weight: 700;
+  cursor: pointer;
 
   &:hover {
     background-color: white;
